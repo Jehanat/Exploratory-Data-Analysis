@@ -1,0 +1,54 @@
+Box Plot is a graphical method to visualize data distribution for gaining insights and making informed decisions. 
+Box plot is a type of chart that depicts a group of numerical data through their quartiles.
+
+40,52,55,60,70,75,85,85,90,90,92,94,94,95,98,100,115,125,125
+
+step 1:
+
+The median formula is used to find the middle value of a data set. Here are the steps:
+For an odd number of observations: Median = [ (n + 1) / 2 ]th term, where "n" is the number of observations. 
+2
+For an even number of observations: Median = [ (n/2)th term + (n/2 + 1)th term ] / 2. 
+To find the median, first, sort the data in ascending order and then apply the appropriate formula based on the number of observations.
+Median= n+1/2 =19+1/2=10 =90
+
+step2:
+
+smallest xi=40
+Median value left part of data(lower fourth)-Q1 :(70+75)/2=145/2=72.5
+Median= n+1/2 =19+1/2=10 =90
+Median value right part of data(upper fourth)-Q3 :(95+98)/2=193/2=96.5
+largest xi=125
+
+
+IQR : fs : fourth spread (measure of variability s resistance to outliers)= upper fourth- lower fourth = 96.5-72.5=24
+
+
+Outliers : 1.5fs
+
+1.Lower boundary = lower fourth -1.5fs= 72.5-(1.5*24)= 72.5-36= 36.5 (above this would be outlier)
+2.Upper boundary = upper fourth -1.5fs= 96.5+(1.5*24)=96.5+36=132.5  (below this would be outlier)
+
+
+Use-Cases of Box Plot
+Box plots provide a visual summary of the data with which we can quickly identify the average value of the data, how dispersed the data is, whether the data is skewed or not (skewness).
+The Median gives you the average value of the data.
+Box Plots shows Skewness of the data-
+a) If the Median is at the center of the Box and the whiskers are almost the 
+   same on both the ends then the data is Normally Distributed.
+b) If the Median lies closer to the First Quartile and if the whisker at the lower
+   end is shorter (as in the above example) then it has a Positive Skew (Right Skew).
+c) If the Median lies closer to the Third Quartile and if the whisker at the
+   upper end is shorter than it has a Negative Skew (Left Skew).
+
+
+
+
+
+             
+
+
+
+
+
+
