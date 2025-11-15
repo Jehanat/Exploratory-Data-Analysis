@@ -1,0 +1,12 @@
+Box Plot 
+-------------------
+
+import matplotlib.pyplot as plt
+
+plt.figure(figsize=(5, 6))
+plt.boxplot(df['num'])
+plt.title("Box Plot of Column")
+plt.ylabel("Values")
+plt.show()
+
+-------------------------------------
